@@ -1,0 +1,44 @@
+package callofproject.dev.task.config.kafka.dto;
+
+import callofproject.dev.data.common.enums.AdminOperationStatus;
+import callofproject.dev.data.common.enums.EOperation;
+import callofproject.dev.data.task.entity.enums.EProjectStatus;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.List;
+import java.util.UUID;
+
+/**
+ * ProjectInfoKafkaDTO
+ */
+public record ProjectInfoKafkaDTO(
+        @JsonProperty("project_id")
+        UUID projectId,
+        @JsonProperty("project_name")
+        String projectName,
+        @JsonProperty("project_owner")
+        UserKafkaDTO projectOwner,
+        @JsonProperty("project_participants")
+        List<ProjectParticipantKafkaDTO> projectParticipants,
+        @JsonProperty("project_status")
+        EProjectStatus projectStatus,
+        @JsonProperty("admin_operation_status")
+        AdminOperationStatus adminOperationStatus,
+        EOperation operation)
+{
+    /**
+     * toString
+     */
+    @Override
+    public String toString()
+    {
+        return "ProjectInfoKafkaDTO{" +
+                "projectId=" + projectId +
+                ", projectName='" + projectName + '\'' +
+                ", projectOwner=" + projectOwner +
+                ", projectParticipants=" + projectParticipants +
+                ", projectStatus=" + projectStatus +
+                ", adminOperationStatus=" + adminOperationStatus +
+                '}';
+    }
+}
