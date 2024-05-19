@@ -1,8 +1,8 @@
 # Call-Of-Project Backend
 
 <p float="left">
-<img width="250" src="https://github.com/CallOfProject/CallOfProject-Backend/assets/62218588/87934f02-647e-4741-b0bc-6b7edfb75e5d">
-<img width="250" src="https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/651d115b-fdbb-41c2-84b5-a6ad113d1088">
+<img width="250" src="./images/logo_1.jpg">
+<img width="250" src="./images/logo_2.png">
 </p>
 
 ### Author
@@ -19,8 +19,8 @@
 - [Architecture Diagram](#architecture-diagram)
 - [ER Diagrams](#er-diagrams)
 - [Test Results](#test-results)
-- [Installation](#setup)
 - [Project Load Test Results](#project-load-test-results)
+- [Installation](#setup)
 
 ## Javadoc Documentation
 - [Javadoc for some services](https://callofproject.github.io/Call-of-Project-API-Documentation/)
@@ -52,7 +52,7 @@ Call-Of-Project follows a **microservices-based architecture**. Our application 
 
 ## Services
 
-Our application consists of 11 services:
+Our application consists of **11** services:
 
 1. **Authentication Service**
 2. **Project Service**
@@ -92,25 +92,52 @@ For more information about the project, visit our repositories:
 - **Frontend:** Not completed yet
 
 ### Architecture Diagram
-- ![architecture_diagram](https://github.com/CallOfProject/CallOfProject-Backend/assets/62218588/5caaa177-1e5a-4a0a-bdd6-40ffba8404b7)
+- <img width="500" src="./images/architecture_diagram.png">
+**General Application Diagram**
+- <img width="500" src="./images/app_diagram.png">
 
-- ![app](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/83e7a49b-6fe2-4c3b-89cc-0cd3e807f180)
  **Recommendation and Matching Service Diagram**
-- ![dark](https://github.com/CallOfProject/CallOfProject-Backend/assets/62218588/2c1f12f3-7bb9-4a97-9462-07da94745e5f)
+- <img width="500" src="./images/matching_diagram.png">
 ***Deployment Diagram**
-- ![deployment_diagram](https://github.com/CallOfProject/CallOfProject-Backend/assets/62218588/d25ef9ed-4e6a-464e-9c67-da5674ac81a5)
+- <img width="500" src="./images/deployment_diagram.png">
 
 ### ER Diagrams
-- ![community_db](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/1465e756-7be7-411a-9cb2-84e42e6d3045)
-- ![cop_authentication_db](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/a39ace64-2fdd-466b-8c8d-0624395ca85e)
-- ![cop_interview_db](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/3c7015ae-017b-4ada-831d-3edcaae493b9)
-- ![cop_project_db](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/e6bf09af-00d4-4aef-b05a-3d8384d909e3)
-- ![cop_task_db](https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/e36f16e3-541d-4cb1-882d-51c949b8efef)
+- **Authentication DB**
+  - <img width="500" src="./images/auth_db.png">
+- **Communtiy DB**
+  - <img width="500" src="./images/community_db.png">
+- **Interview DB**
+  - <img width="500" src="./images/interview_db.png">
+- **Project DB**
+  - <img width="500" src="./images/project_db.png">
+- **Task DB**
+  - <img width="500" src="./images/task_db.png">
 
-### Test Results
-https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/135e0303-538a-4fe2-b190-3a8956683cbc 
-- **Test Result:** Passed all tests
+## Unit Test Results
+https://github.com/nuricanozturk01/CallOfProject-Backend/assets/62218588/81147ddf-f037-4103-a9fb-229caac67303
+  - **Test Result:** Passed all tests
+    
+## Project Load Test Results
+This document summarizes the results of the load test conducted to assess the performance of our project.
 
+### Test Details
+- **Test Date**: May 13, 2024
+- **Total Sessions**: 3994
+- **Test Duration**: 7 minutes 13 seconds
+- **Maximum Users**: 100
+
+### Performance Metrics
+- **Average Response Time**: 0.4466 seconds
+- **90% Response Time**: 0.4889 seconds
+- **Maximum Response Time**: 0.794 seconds
+
+### Results
+The test results demonstrate that our system is high-performing and stable. With 100 users, we are able to maintain low response times, proving our commitment to optimizing user experience.
+
+These results provide a solid foundation for future scalability efforts. We aim to scale our system to support an increasing number of users in the future.
+- **References**
+  - [user-dotcom-monitor](https://user.dotcom-monitor.com/) Load Testing application. (FREE VERSION) (max: 100 USER)
+  
 ## Installation
   ### Prerequisites:
   - Maven
@@ -163,24 +190,3 @@ https://github.com/CallOfProject/CallOfProject-Backend/assets/147416047/135e0303
   ```bash
     bash run_tests.sh
   ```
-## Project Load Test Results
-This document summarizes the results of the load test conducted to assess the performance of our project.
-
-### Test Details
-- **Test Date**: May 13, 2024
-- **Total Sessions**: 3994
-- **Test Duration**: 7 minutes 13 seconds
-- **Maximum Users**: 100
-
-### Performance Metrics
-- **Average Response Time**: 0.4466 seconds
-- **90% Response Time**: 0.4889 seconds
-- **Maximum Response Time**: 0.794 seconds
-
-### Results
-The test results demonstrate that our system is high-performing and stable. With 100 users, we are able to maintain low response times, proving our commitment to optimizing user experience.
-
-These results provide a solid foundation for future scalability efforts. We aim to scale our system to support an increasing number of users in the future.
-
-- **References**
-  - [user-dotcom-monitor](https://user.dotcom-monitor.com/) Load Testing application. (FREE VERSION) (max: 100 USER)
