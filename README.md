@@ -98,7 +98,7 @@ For more information about the project, visit our repositories:
 
  **Recommendation and Matching Service Diagram**
 - <img width="500" src="./images/matching_diagram.png">
-***Deployment Diagram**
+**Deployment Diagram**
 - <img width="500" src="./images/deployment_diagram.png">
 
 ### ER Diagrams
