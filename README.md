@@ -34,20 +34,22 @@ Call-Of-Project follows a **microservices-based architecture**. Our application 
 ### Used Technologies
 - Java 17
 - Spring Boot 3.1.5
+- Eureka Server
+- API Gateway
+- Spring Data JPA
+- Pagination
+- JPA Specification
+- Mapstruct (for mappers)
+- JWT (Authentication and Authorization)
 - Apache Kafka
 - Websocket
-- JWT
+- JUnit
+- Mock
 - MySQL
 - MongoDB
 - H2 for tests
-- Eureka Server
-- API Gateway
 - Our Team Libraries
-- JUnit
-- Mock
-- Mapstruct
 - Amazon S3 (for file and photos)
-- Pagination
 - ...
 
 ## Services
