@@ -95,10 +95,11 @@ For more information about the project, visit our repositories:
 
 ### Architecture Diagram
 - <img width="500" src="./images/architecture_diagram.png">
+**Service Discovery**
+- <img width="500" src="./images/service_discovery.png">
 **General Application Diagram**
 - <img width="500" src="./images/app_diagram.png">
-
- **Recommendation and Matching Service Diagram**
+**Recommendation and Matching Service Diagram**
 - <img width="500" src="./images/matching_diagram.png">
 **Deployment Diagram**
 - <img width="500" src="./images/deployment_diagram.png">
