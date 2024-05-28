@@ -22,6 +22,12 @@
 - [Project Load Test Results](#project-load-test-results)
 - [Installation](#setup)
 
+- **Trailer v2**
+<a href="https://www.youtube.com/watch?v=HCYdue6QRCc">
+  <img src="https://github.com/CallOfProject/CallOfProject/assets/147416047/cb9743d6-92bb-42e0-aaed-13bb8ff9eb1a" alt="image">
+</a>
+
+
 ## Javadoc Documentation
 - [Javadoc for some services](https://callofproject.github.io/Call-of-Project-API-Documentation/)
 
