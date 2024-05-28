@@ -9,6 +9,7 @@
 - **Author:** [Nuri Can ÖZTÜRK](https://github.com/nuricanozturk01)
 
 # Contents
+- [Trailer](#trailer)
 - [Javadoc Documentation](#documentation)
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -22,7 +23,7 @@
 - [Project Load Test Results](#project-load-test-results)
 - [Installation](#setup)
 
-- **Trailer v2**
+## Trailer
 <a href="https://www.youtube.com/watch?v=HCYdue6QRCc">
   <img src="https://github.com/CallOfProject/CallOfProject/assets/147416047/cb9743d6-92bb-42e0-aaed-13bb8ff9eb1a" alt="image">
 </a>
